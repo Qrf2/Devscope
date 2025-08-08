@@ -1,29 +1,42 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { View } from 'react-native';
+import 'react-native-gesture-handler';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import DrawerContent from '../components/DrawerContent';
+import { ChatProvider } from '../contexts/ChatContext';
+import '../global.css';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
-
-export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
-
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
-
+export default function Layout() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <ChatProvider>
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        {/* Add a view under the status bar for background color */}
+        <View style={{ height: 32, backgroundColor: '#0F172A', position: 'absolute', top: 0, left: 0, right: 0, zIndex: 1 }} />
+        <StatusBar style="light" translucent />
+        <Drawer
+          drawerContent={(props) => <DrawerContent {...props} />}
+          screenOptions={{
+            headerShown: false,
+            drawerStyle: {
+              backgroundColor: 'transparent',
+              width: 320,
+            },
+            drawerType: 'slide',
+            overlayColor: 'rgba(0, 0, 0, 0.7)',
+            drawerActiveTintColor: '#60A5FA',
+            drawerInactiveTintColor: '#9CA3AF',
+          }}
+        >
+          <Drawer.Screen
+            name="index"
+            options={{
+              drawerLabel: 'Chat',
+              title: 'Devscope Chat',
+            }}
+          />
+        </Drawer>
+      </GestureHandlerRootView>
+    </ChatProvider>
   );
 }
