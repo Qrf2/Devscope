@@ -1,4 +1,5 @@
-<img width="980" height="1996" alt="iPhone 16 Ultramarine" src="https://github.com/user-attachments/assets/1b40fe21-0cdc-44bf-88fd-b8157f43a952" /><img width="1281" height="578" alt="Screenshot 2025-08-08 143841" src="https://github.com/user-attachments/assets/fead7963-eab3-4bcb-a84a-d3beec2c0c67" />
+<img width="1281" height="578" alt="Screenshot 2025-08-08 143841" src="https://github.com/user-attachments/assets/af72fa97-e5df-4e7f-8cfa-4d199ed451ff" />
+
 
  **Devscope**  
 **AI-Powered Code Intelligence & OCR-Driven Developer Assistant**  
@@ -49,14 +50,17 @@ Designed for developers who demand **precision, speed, and portability**, Devsco
 
 ---
 
-<img width="980" height="1996" alt="iPhone 16 Ultramarine" src="https://github.com/user-attachments/assets/8d91739b-f9b5-4a04-a5ad-e6d00535e018" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-1" src="https://github.com/user-attachments/assets/5af81e02-0942-44db-999d-bb5782166870" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-2" src="https://github.com/user-attachments/assets/084e065f-493b-45b5-885a-56b254bc8219" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-3" src="https://github.com/user-attachments/assets/67da8f0d-999f-4f29-b3c2-e3c8ed2a7133" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-4" src="https://github.com/user-attachments/assets/8e41ad66-491a-40b8-bda0-5c4be2282c3c" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-5" src="https://github.com/user-attachments/assets/52b17f31-7afa-464b-908a-79ee632cfbb5" />
-<img width="980" height="1996" alt="iPhone 16 Ultramarine-6" src="https://github.com/user-attachments/assets/e595f750-9dd4-465c-8ebc-038920c9ee00" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5af81e02-0942-44db-999d-bb5782166870" alt="Chat Interface" width="250">
+  <img src="https://github.com/user-attachments/assets/084e065f-493b-45b5-885a-56b254bc8219" alt="OCR in Action" width="250">
+  <img src="https://github.com/user-attachments/assets/67da8f0d-999f-4f29-b3c2-e3c8ed2a7133" alt="AI Code Output" width="250">
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e41ad66-491a-40b8-bda0-5c4be2282c3c" alt="Feature Screenshot 1" width="250">
+  <img src="https://github.com/user-attachments/assets/52b17f31-7afa-464b-908a-79ee632cfbb5" alt="Feature Screenshot 2" width="250">
+  <img src="https://github.com/user-attachments/assets/e595f750-9dd4-465c-8ebc-038920c9ee00" alt="Feature Screenshot 3" width="250">
+</p>
 ---
 
 ## ⚡ **Why Devscope Stands Out**
