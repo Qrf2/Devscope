@@ -37,7 +37,7 @@ export const processImageWithOCR = async (imageUri) => {
     const response = await fetch('https://api.ocr.space/parse/image', {
       method: 'POST',
       headers: {
-        'apikey': 'K82971939488957', // Consider storing API key in environment variables
+        'apikey': '', // Consider storing API key in environment variables
       },
       body: formData,
     });
@@ -77,23 +77,23 @@ export const sendMessageToAI = async (appMessages) => {
       })
     );
 
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    const response = await fetch('', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer',
         'HTTP-Referer': 'http://localhost',
         'X-Title': 'Devscope',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'qwen/qwen3-30b-a3b-instruct-2507',
+        model: '',
         messages,
       }),
     });
 
     if (!response.ok) {
       const errText = await response.text().catch(() => 'Unknown error');
-      throw new Error(`OpenRouter API error ${response.status}: ${errText}`);
+      throw new Error(` ${response.status}: ${errText}`);
     }
 
     const data = await response.json();
