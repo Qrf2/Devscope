@@ -1,5 +1,4 @@
-<img width="1281" height="578" alt="Screenshot 2025-08-08 143841" src="https://github.com/user-attachments/assets/af72fa97-e5df-4e7f-8cfa-4d199ed451ff" />
-
+<img width="1281" height="578" alt="Screenshot 2025-08-08 143841" src="https://github.com/user-attachments/assets/7a114864-e6ec-4a37-a784-5b62066d8862" />
 
  **Devscope**  
 **AI-Powered Code Intelligence & OCR-Driven Developer Assistant**  
