@@ -71,6 +71,6 @@ Designed for developers who demand **precision, speed, and portability**, Devsco
 📲 **Install via QR Code
 Scan the QR code below to download and install **Devscope** directly on your device.  
 
-<img width="354" height="389" alt="Screenshot 2025-08-07 165809" src="https://github.com/user-attachments/assets/be92d674-4886-4fde-bbe2-376fd8368c42" />
+<img width="354" height="389" alt="Screenshot 2025-08-07 165809" src="https://github.com/user-attachments/assets/5380e3d0-9363-4dbc-8cbb-307bf91200e6" />
 
 
